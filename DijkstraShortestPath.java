@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 public class DijkstraShortestPath {
 
     public void computeShortestPaths(Vertex sourceVertex){
-        
+        System.out.println();
         sourceVertex.setDistance(0);
         PriorityQueue<Vertex> priorityQueue = new PriorityQueue<>();
         priorityQueue.add(sourceVertex);
